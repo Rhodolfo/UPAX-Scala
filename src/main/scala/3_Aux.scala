@@ -4,7 +4,11 @@ class Rectangle() {
 	def getArea(): Int = {
 		return x*y
 	}
-	def printYourself() = {
+	def getPerimeter(): Int = {
+		return 2*(x+y)
+	}
+	def printYourself(): Int = {
 		println("x = "+x+" | y = "+y)
+		return 1
 	}
 }

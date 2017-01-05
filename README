@@ -1,0 +1,12 @@
+Just need SBT
+http://www.scala-sbt.org/download.html
+
+To run:
+$ sbt
+Inside sbt:
+> compile
+> run
+Then select the main class to run
+
+As always, with SBT you should have the following line in your ignore file:
+target/
