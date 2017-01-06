@@ -8,5 +8,17 @@ Inside sbt:
 > run
 Then select the main class to run
 
-As always, with SBT you should have the following line in your ignore file:
+As always, with SBT you should have the following line in your repository manager ignore file:
 target/
+
+This is a typical Scala single project directory structure:
+.
+├── build.sbt
+├── README
+├── src
+    └── main
+        └── scala
+            ├── 1_Hello.scala
+            ├── 2_Sub.scala
+            ├── 3_Aux.scala
+            └── 3_Class.scala
