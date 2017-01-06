@@ -22,3 +22,5 @@ This is a typical Scala single project directory structure:
             ├── 2_Sub.scala
             ├── 3_Aux.scala
             └── 3_Class.scala
+
+Transferred ownsership.
